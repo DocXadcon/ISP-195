@@ -1,0 +1,57 @@
+body {
+    background-color:#E7E9EB;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.container_grid {
+    margin: 0 auto;
+    height:500px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background-color: rgba(144, 185, 185, 0.72);
+    padding: 10px;
+}
+.container_grid .item {
+    background-color: #989494;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Candara Light";
+    padding: 25px 0;
+}
+
+.container_grid :nth-child(odd) {
+    background-color: gray;
+}
+
+.container_grid :nth-child(1) {
+    background-color: rgba(107, 129, 181, 0.51);;
+}
+.container_grid :nth-child(2) {
+    background-color: rgba(50, 96, 204, 0.51);;
+}
+.container_grid :nth-child(3) {
+    background-color:   rgba(29, 63, 142, 0.51);
+}
+.container_grid :nth-child(4) {
+    background-color: rgba(13, 51, 140, 0.51);;
+}
+.container_grid :nth-child(5) {
+    background-color: rgba(10, 59, 172, 0.77);;
+}
+
+.container_grid .container_grid-btn_grid {
+    padding: 10px 25px;
+    background-color: rgba(236, 223, 223, 0.18);
+    border: 1px solid #e6d2d2;;
+    cursor: pointer;
+}
+
+.container_grid .container_grid-btn_grid:hover {
+    box-shadow: -1px -1px 1px -1px whitesmoke;
+}
